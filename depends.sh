@@ -1,3 +1,6 @@
-#!/usr/bin/env sh
+#!/usr/bin/env bash
 
-depends=('gomi' 'lsd')
+depends=(
+    'gomi'
+    'lsd'
+)
