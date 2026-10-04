@@ -1,5 +1,5 @@
-#!/usr/bin/env sh
+#!/usr/bin/env bash
 
-[ -d ~/.config/gomi ] || mkdir -p ~/.config/gomi
+[[ -d ~/.config/gomi ]] || mkdir -p ~/.config/gomi
 
 ln -sf "$(pwd)/config.yaml" ~/.config/gomi/config.yaml
